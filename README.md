@@ -29,6 +29,13 @@ I know this is not a common method of separating abbrevations from citaitons, bu
 - Using the app with the "alphabetical order" sort method will likely be more useful than chronological as it allows or faster side-by-side comparison with the works cited.
 - However, the chronological order sort method might be helpful when a result is returned and the user is not sure if it is a proper citaiton or not, but the chronological order may give the user a better idea of where to go back and double check in the paper.
       
-      
+## Files Included:
+
+#### The "Pull_cites_function.R" file is an R file that is not the Shiny app, but it contains code the allows to to perform the same functions, and even has the choise to manually paste text in, rather than uploading a file.
+
+#### The "Pull_cites_app.R" file is the shiny app and only currently allows files to to uploaded for extraction.
+
+##
+
 If you have any questions or comments, please reach out to me at jamie.behan@maine.edu
   

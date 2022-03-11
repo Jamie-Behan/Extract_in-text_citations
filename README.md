@@ -20,6 +20,9 @@
          
 I know this is not a common method of separating abbrevations from citaitons, but I have still seen it in papers.
 
+  2) All caps citations e.g: (IPCC 2019).
+  3) When parenthesis are used within citation. e.g.: (Northeast Fisheries Science Center (U.S.) 2012)
+
 #### Please feel free to comment or let me know about any other instances where the app misses citations, as adding examples to the list will also help users be able to manually search for them after.
 
 ### Other Important Notes:
@@ -28,6 +31,7 @@ I know this is not a common method of separating abbrevations from citaitons, bu
 - "ABBR" might be returned as a citation in the list. Therefore it is important for the user to take a close enough look at the list to determine if it is an actual       citation or not.
 - Using the app with the "alphabetical order" sort method will likely be more useful than chronological as it allows or faster side-by-side comparison with the works cited.
 - However, the chronological order sort method might be helpful when a result is returned and the user is not sure if it is a proper citaiton or not, but the chronological order may give the user a better idea of where to go back and double check in the paper.
+- Might list the same citations twice, possibly in different ways. For example, I just recieved results where "Bryon and Morgan 2016" was returned, but also "Morgan 2016" was returned, so just make sure to search citations that look unexpected to you to see if they might be a part of another citation already listed.
       
 ## Files Included:
 

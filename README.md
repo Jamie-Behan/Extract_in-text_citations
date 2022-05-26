@@ -35,7 +35,7 @@ I know this is not a common method of separating abbrevations from citaitons, bu
       
 ## Files Included:
 
-#### The "Pull_cites_function.R" file is an R file that is not the Shiny app, but it contains code the allows to to perform the same functions, and even has the choise to manually paste text in, rather than uploading a file.
+#### The "Pull_cites_function.R" file is an R file that is not the Shiny app, but it contains code the allows to to perform the same functions, and even has the choice to manually paste text in, rather than uploading a file.
 
 #### The "Pull_cites_app.R" file is the shiny app and only currently allows files to to uploaded for extraction.
 

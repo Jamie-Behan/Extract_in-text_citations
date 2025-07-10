@@ -16,12 +16,8 @@
 
 
 ### Instances I have come across where this app will not pick up on citations:
-  1) This is an example text with an abbreviation directly followed by a citation (ABBR) (Author, 2010).
-         
-I know this is not a common method of separating abbrevations from citaitons, but I have still seen it in papers.
-
-  2) All caps citations e.g: (IPCC 2019).
-  3) When parenthesis are used within citation. e.g.: (Northeast Fisheries Science Center (U.S.) 2012)
+  1) When parenthesis are used within citation. e.g.: (Northeast Fisheries Science Center (U.S.) 2012)
+The "Pull_cites_function.R" scripts has been updates to make fewer errors and correctly identify in-text citations under most circumstances.
 
 #### Please feel free to comment or let me know about any other instances where the app misses citations, as adding examples to the list will also help users be able to manually search for them after.
 
@@ -31,11 +27,10 @@ I know this is not a common method of separating abbrevations from citaitons, bu
 - "ABBR" might be returned as a citation in the list. Therefore it is important for the user to take a close enough look at the list to determine if it is an actual       citation or not.
 - Using the app with the "alphabetical order" sort method will likely be more useful than chronological as it allows or faster side-by-side comparison with the works cited.
 - However, the chronological order sort method might be helpful when a result is returned and the user is not sure if it is a proper citaiton or not, but the chronological order may give the user a better idea of where to go back and double check in the paper.
-- Might list the same citations twice, possibly in different ways. For example, I just recieved results where "Bryon and Morgan 2016" was returned, but also "Morgan 2016" was returned, so just make sure to search citations that look unexpected to you to see if they might be a part of another citation already listed.
       
 ## Files Included:
 
-#### The "Pull_cites_function.R" file is an R file that is not the Shiny app, but it contains code the allows to to perform the same functions, and even has the choice to manually paste text in, rather than uploading a file.
+#### The "Pull_cites_function.R" file is an R file that is not the Shiny app, but it contains code the allows to to perform the same functions, and even has the choice to manually paste text in, rather than uploading a file. This is the most up-to-date file
 
 #### The "Pull_cites_app.R" file is the shiny app and only currently allows files to to uploaded for extraction.
 
